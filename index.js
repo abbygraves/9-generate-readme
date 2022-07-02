@@ -20,7 +20,7 @@
 
 // (1) - ⬇︎ PACKAGES & VARIABLES
 const inquirer = require("inquirer");
-
+const fs = require('fs');
 
 
 // (2): USER QUESTIONS PROMPT
@@ -159,7 +159,19 @@ const questions = [
 
 
 // TODO - (3): CREATE A FUNCTION TO WRITE README FILE
-function writeToFile(fileName, data) {}
+function writeToFile(fileContent) {
+  return new Promise((resolve, reject) => {
+    fs.writeFile("./dist/README.md", fileContent, err => {
+      if (err) {
+        reject(err);
+        return
+      } resolve({
+        ok: true,
+        message: "File Created!"
+      });
+    });
+  });
+};
 
 
 
@@ -167,11 +179,12 @@ function writeToFile(fileName, data) {}
 // TODO - (4): CREATE A FUNCTION TO INITIALIZE APP
 function init() {
   inquirer.prompt(questions)
-    .then(function(answer) {
-      console.log(answer);
-    })
-};
-
+    .then(function (userInput) {
+      console.log(userInput);
+      var readmeData = generateMarkdown(userInput);
+      writeToFile(readmeData);
+    });
+  };
 
 
 
