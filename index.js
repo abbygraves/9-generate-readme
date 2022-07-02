@@ -21,6 +21,7 @@
 // (1) - ⬇︎ PACKAGES & VARIABLES
 const inquirer = require("inquirer");
 const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // (2): USER QUESTIONS PROMPT
@@ -112,7 +113,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "What commands are used to run tests? (if none press enter) ",
+    message: "What commands are used to run tests? (if none please enter 'N/A') ",
   },
   {
     type: "input",
