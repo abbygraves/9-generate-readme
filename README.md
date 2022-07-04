@@ -1,33 +1,81 @@
-# Node.js Challenge: Professional README Generator
+# Professional README Generator
 
 ## **Description**
-A command-line application that dynamically generates a professional READEME.md file containing the user's input.
-
+A command-line application that dynamically generates a professional `READEME.md` file containing the user's input.
 
 <br/>
 
-<img align="right" width="504px" src="./assets/images/generate-readme-walk-through.gif">
+## **Table of Contents**
+<img style="float:right; margin-left:20px; margin-bottom:15px" src="./assets/images/gen-readme-vid.gif">
+<details>
+<summary>Click to expand</summary>
+
+### [Description](#Description)
+### [Built With](#Built-With:)
+### [Development Overview](#Development-Overview)
+### [Installation](#Installation)
+### [Usage](#Usage)
+### [Credit](#Credit)
+### [Tests](#Tests)
+### [Contact Me](#Got-Questions?)
+### [License](#License)
+</details>
+
+<br/>
 
 ## **Built With:**
-+ javascript
-+ node.js
-+ inquirer npm package 
++ JavaScript
++ Node.js
++ inquirer.js
 
 <br/>
 
-## **What I Did**
-+ Installed and implemented the inquier npm package
-+ Provided questions/prompts for the user to answer 
-+ Used the user input to fill out and generate a README.md file
-+ Created a README.md template with hardcoded elements such as section titles and formatting
+## **Development Overview**
++ Installed and implemented the `inquirer.js` npm package
++ Provided questions/prompts for the user to answer when running the app in the command line
++ Inserted the user input in corresponding sections to fill out/generate a `README.md` file
++ Created a `README.md` template with hardcoded elements such as section titles and formatting
 + Enabled the app to dispaly a badge for the selected license 
 
 <br/>
 
-## **Credit**
-Inquirer npm package:
-[https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)
+## **Installation**
+Download or clone the repo to your local drive.
+
+Run the following in the command line:
+```bash
+npm install inquirer
+```
+
+<br/>
+
+## **Usage**
+Requires both `Node.js` and `inquirer.js` to be installed to your local drive before use
 
 
 <br/>
+
+## **Credit**
+`inquirer.js` npm package ➝&nbsp;
+[https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)
+
+`Markdown` formatting techniques ideas/inspiration ➝&nbsp;
+[Markdown Magic](https://github.com/DavidWells/markdown-magic.git)
+
+<br/>
+
+## **Tests**
+N/A
+
+<br/>
+
+## **Got Questions?**
+Feel free to reach out with questions or comments regarding  !
+
+[My GitHub Profile](https://github.com/${data.github}) &nbsp; :octocat:&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;[Email Me](${data.email}) &nbsp;📧
+
+<br/>
+
+## **License**
+
 

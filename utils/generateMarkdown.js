@@ -23,28 +23,33 @@ function generateMarkdown(data) {
   <br/>
   
   ## **Table of Contents**
+  <details>
+  <summary>Click to expand</summary>
+
+  ### [Built With](#Built-With:)
   ### [Description](#Description)
   ### [Installation](#Installation)
   ### [Usage](#Usage)
-  ### [License](#License)
   ### [Credit](#Credit)
   ### [Tests](#Tests)
-  ### [Questions](#Questions)
-  
+  ### [Contact Me](#Got-Questions?)
+  ### [License](#License)
+  </details>
+
   <br/>
   
-  ## **Installation**
-  ${data.installation}
-  
+  ## **Built With:**
+  + ${data.languages}
+  + ${data.otherBuiltWith}
+
+
+  ## **Installation** 
+  ${data.installation} 
+
   <br/>
   
   ## **Usage**
   ${data.usage}
-  
-  <br/>
-  
-  ## **License**
-  ${data.license}
   
   <br/>
   
@@ -58,14 +63,16 @@ function generateMarkdown(data) {
   
   <br/>
   
-  ## **Questions**
-  ### Github username: 
-  ${data.github}
-  ### Email address: 
-  ${data.email}
+  ## **Got Questions?**
+  Feel free to reach out with questions or comments regarding ${data.title}!
   
-  ${data.reachMe}
-`;
+  [My GitHub Profile](https://github.com/${data.github})&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;[Email Me](${data.email})&nbsp; 📧
+
+  <br/>
+  
+  ## **License**
+  ${data.license}
+  `;
 }
 
 

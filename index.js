@@ -53,6 +53,38 @@ const questions = [
     }
   },
   {
+    type: "checkbox",
+    name: "languages",
+    message: "What was used to build this project? Select all that apply.",
+    choices: ["HTML", "CSS", "JavaScript"],
+    validate: languagesInput => {
+      if (languagesInput) {
+        return true;
+      } else {
+        console.log("Please select at least one option!");
+        return false;
+      }
+    }
+  },
+  {
+    type: "confirm",
+    name: "confirmOtherBuiltWith",
+    message: "Would you like add anything else to the 'Built With:' section?",
+    default: false
+  },
+  {
+    type: "input",
+    name: "otherBuiltWith",
+    message: "Please enter them each seperated by a comma:",
+    when: ({ confirmOtherBuiltWith }) => {
+      if (confirmOtherBuiltWith) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  },
+  {
     type: "input",
     name: "installation",
     message: "What are the steps required to install your project?", // (Provide a step-by-step description of how to get the development environment running.)
@@ -141,19 +173,6 @@ const questions = [
       }
     }
   },
-  {
-    type: "input",
-    name: "reachMe",
-    message: "How should you be contacted regarding additional questions and/or comments?",
-    validate: reachMeInput => {
-      if (reachMeInput) {
-        return true;
-      } else {
-        console.log("Please provide instructions on how to reach you!");
-        return false;
-      }
-    }
-  }
 ];
 
 
