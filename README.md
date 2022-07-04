@@ -6,19 +6,18 @@ A command-line application that dynamically generates a professional `READEME.md
 <br/>
 
 ## **Table of Contents**
-<img style="float:right; margin-left:20px; margin-bottom:15px" src="./assets/images/gen-readme-vid.gif">
 <details>
 <summary>Click to expand</summary>
 
-### [Description](#Description)
-### [Built With](#Built-With:)
-### [Development Overview](#Development-Overview)
-### [Installation](#Installation)
-### [Usage](#Usage)
-### [Credit](#Credit)
-### [Tests](#Tests)
-### [Contact Me](#Got-Questions?)
-### [License](#License)
+#### [Description](#Description)
+#### [Built With](#Built-With:)
+#### [Development Overview](#Development-Overview)
+#### [Installation](#Installation)
+#### [Usage](#Usage)
+#### [Credit](#Credit)
+#### [Tests](#Tests)
+#### [Contact Me](#Got-Questions?)
+#### [License](#License)
 </details>
 
 <br/>
@@ -29,6 +28,7 @@ A command-line application that dynamically generates a professional `READEME.md
 + inquirer.js
 
 <br/>
+
 
 ## **Development Overview**
 + Installed and implemented the `inquirer.js` npm package
