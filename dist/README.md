@@ -12,20 +12,20 @@
   <details>
   <summary>Click to expand</summary>
 
-  ### [Built With](#Built-With:)
+  ### [Build](#Built-With:)
   ### [Description](#Description)
   ### [Installation](#Installation)
   ### [Usage](#Usage)
   ### [Credit](#Credit)
   ### [Tests](#Tests)
-  ### [Contact Me](#Got-Questions?)
+  ### [Contact Me](#Questions?)
   ### [License](#License)
   </details>
 
   <br/>
   
   ## **Built With:**
-  + HTML
+  + HTML,CSS,JavaScript
   + undefined
 
 
@@ -49,7 +49,7 @@
   
   <br/>
   
-  ## **Got Questions?**
+  ## **Questions?**
   Feel free to reach out with questions or comments regarding a!
   
   [My GitHub Profile](https://github.com/a)&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;[Email Me](a)&nbsp; 📧
