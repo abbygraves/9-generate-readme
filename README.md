@@ -4,7 +4,7 @@
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
   ## **Description:**
-  A command-line application that dynamically generates a professional `README.md` file containing the user's input.
+  A command-line application used to dynamically generate a `README.md` file containing the user's input.
   
   <br/>
   
@@ -31,12 +31,12 @@
   <br/>
 
   ## **Installation** 
-  npm install inquirer 
+  npm install inqurier 
 
   <br/>
   
   ## **Usage**
-  1) Run the application in your command-line by typing "node index" and pressing enter 2) Answer the questions/prompts 3) The generated `README.md` file will appear in the root of your folder
+  Runthe application in your command-line by typing "node index" and pressing enter, answer the questions/prompts, and the generated `README.md` file will appear in the root of your folder
   
   <br/>
   
