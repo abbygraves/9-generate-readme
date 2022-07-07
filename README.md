@@ -5,7 +5,9 @@
 
   ## **Description:**
   A command-line application used to dynamically generate a `README.md` file containing the user's input.
-  
+ 
+  **Link to Walkthrough Video ➝** https://youtu.be/XcBRDwJtRL8
+
   <br/>
   
   ## **Table of Contents**
