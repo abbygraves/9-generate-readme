@@ -12,19 +12,19 @@
   <details>
   <summary>Click to expand</summary>
 
-  ### [Build](#Built-With:)
+  ### [Build](#Build)
   ### [Description](#Description)
   ### [Installation](#Installation)
   ### [Usage](#Usage)
   ### [Credit](#Credit)
   ### [Tests](#Tests)
-  ### [Contact Me](#Got-Questions?)
+  ### [Questions](#Questions)
   ### [License](#License)
   </details>
 
   <br/>
   
-  ## **Built With:**
+  ## **Build**
   + JavaScript
   + Node.js, inquirer.js
 
@@ -36,12 +36,12 @@
   <br/>
   
   ## **Usage**
-  Run the application in your command-line and answer the questions/prompts
+  1) Run the application in your command-line by typing "node index" and pressing enter 2) Answer the questions/prompts 3) The generated `README.md` file will appear in the root of your folder
   
   <br/>
   
   ## **Credit**
-  `inquirer.js` npm package: [https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)
+  `inquirer.js` npm package: https://www.npmjs.com/package/inquirer
   
   <br/>
   
@@ -50,7 +50,7 @@
   
   <br/>
   
-  ## **Got Questions?**
+  ## **Questions**
   Feel free to reach out with questions or comments regarding Professional README Generator!
   
   [My GitHub Profile](https://github.com/abbygraves)&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;abbygraves14@gmail.com&nbsp; 📧

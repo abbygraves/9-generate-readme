@@ -59,19 +59,19 @@ function generateMarkdown(data) {
   <details>
   <summary>Click to expand</summary>
 
-  ### [Build](#Built-With:)
+  ### [Build](#Build)
   ### [Description](#Description)
   ### [Installation](#Installation)
   ### [Usage](#Usage)
   ### [Credit](#Credit)
   ### [Tests](#Tests)
-  ### [Contact Me](#Got-Questions?)
+  ### [Questions](#Questions)
   ### [License](#License)
   </details>
 
   <br/>
   
-  ## **Built With:**
+  ## **Build**
   + ${data.languages}
   + ${data.otherBuiltWith}
 
@@ -97,7 +97,7 @@ function generateMarkdown(data) {
   
   <br/>
   
-  ## **Got Questions?**
+  ## **Questions**
   Feel free to reach out with questions or comments regarding ${data.title}!
   
   [My GitHub Profile](https://github.com/${data.github})&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp; 📧
