@@ -36,7 +36,7 @@
   <br/>
   
   ## **Usage**
-  Runthe application in your command-line by typing "node index" and pressing enter, answer the questions/prompts, and the generated `README.md` file will appear in the root of your folder
+  Run the application in your command-line by typing "node index" and pressing enter, answer the questions/prompts, and the generated `README.md` file will appear in the root of your folder
   
   <br/>
   
